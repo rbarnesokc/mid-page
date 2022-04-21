@@ -93,8 +93,8 @@ ul img {
 @media screen and (min-width: 768px) {
 
     body {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     .main,
@@ -105,7 +105,7 @@ ul img {
 
     .main,
     .quote {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .quote {
@@ -117,7 +117,7 @@ ul img {
     .links {
         width: 40%;
         font-size: .7rem;
-        padding: 60px 30px;
+        padding: 60px 0 20px 15px;
     }
 
     .section1 {
@@ -126,7 +126,7 @@ ul img {
 
     .section2 {
         flex-wrap: wrap;
-        margin: -20px 80px;
+        margin: -30px 80px;
     }
 
 }
