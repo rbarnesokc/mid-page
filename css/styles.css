@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .debug * {
+    outline: 1px solid #d5008f;
+} */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.main {
+    width: 100%;
+    font-size: 2.8rem;
+    padding: 20px;
+}
+
+.main p {
+    padding: 20px 0;
+}
+
+.main em {
+    color: blue;
+}
+
+.finance {
+    width: 100%;
+    background-color: #3f94fa;
+    color: white;
+    padding: 20px 20px 40px 40px;
+    margin-left: 20px;
+}
+
+.finance p {
+    font-size: .6rem;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.quote {
+    width: 100%;
+    background-color: #d1f1e7;
+    margin-right: 20px;
+    font-size: 2.8rem;
+    padding: 30px 30px 30px 20px;
+}
+
+.links {
+    padding: 20px;
+    width: 100%;
+}
+
+.services,
+.benefits,
+.lending {
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+ul img {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .main,
+    .finance {
+        width: 50%;
+        margin: 0;
+    }
+
+    .main,
+    .quote {
+        font-size: 2rem;
+    }
+
+    .quote {
+        width: 60%;
+        margin: 0;
+        padding: 40px 30px;
+    }
+
+    .links {
+        width: 40%;
+        font-size: .7rem;
+        padding: 60px 30px;
+    }
+
+    .section1 {
+        margin: 0 80px;
+    }
+
+    .section2 {
+        flex-wrap: wrap;
+        margin: -20px 80px;
+    }
+
+}
+
+
+@media screen and (min-width: 1064px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
